@@ -1,5 +1,7 @@
 CREATE DATABASE `ds_0` CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
 
+use ds_0;
+
 CREATE TABLE `user`(
 	id bigint(64) not null,
 	city varchar(20) not null,

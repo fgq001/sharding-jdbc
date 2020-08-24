@@ -1,5 +1,5 @@
 CREATE DATABASE `ds_1` CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
-
+use ds_1;
 CREATE TABLE `loudong` (
   `id` varchar(20) NOT NULL,
   `city` varchar(20) NOT NULL,
